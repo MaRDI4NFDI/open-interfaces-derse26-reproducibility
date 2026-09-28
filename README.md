@@ -34,7 +34,7 @@ docker run -it --rm mardi-oif-derse26-repro
 or alternatively run simulations one by one:
 ```shell
 julia call_optim_rosenbrock.jl scipy_optimize NelderMead
-julia call_optim_rosenbrock.jl optiml.jl      NelderMead
+julia call_optim_rosenbrock.jl optim_jl       NelderMead
 julia call_optim_rosenbrock.jl scipy_optimize BFGS
-julia call_optim_rosenbrock.jl optim.jl       BFGS
+julia call_optim_rosenbrock.jl optim_jl       BFGS
 ```
