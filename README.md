@@ -19,7 +19,7 @@ docker build -t mardi-oif-derse26-repro .
 which will use the `Dockerfile` in this repro to build [MaRDI Open
 Interfaces](https://github.com/MaRDI4NFDI/open-interfaces)
 on the Ubuntu 24.04 operating system.
-This will take some time: (?????????) depending on your computer
+This will take some time (about 10 minutes) depending on your computer
 and Internet bandwidth.
 
 2. Start a container based on the built image:
